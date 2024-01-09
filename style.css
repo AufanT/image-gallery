@@ -35,12 +35,14 @@ img {
 
 .container {
     width: 80%;
-    border: 5px solid var(--hgl);
+    /* border: 5px solid var(--hgl); */
 }
 
 .container .preview-box {
     height: 70dvh;
-    border-bottom: 5px solid var(--hgl);
+    margin-bottom: 1rem;
+    box-shadow: 0 0 30px white;
+    /* border-bottom: 5px solid var(--hgl); */
 }
 
 .container .preview-box img {
